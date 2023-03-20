@@ -10,7 +10,7 @@ def main():
         if op == 2:
             find_str = view.find_person()
             find_str = database.find_person(find_str)
-            print(find_str)
+            #print(find_str)
             op2 = view.ask2()
             if op2 == 1:
                 new_name = view.get_data()

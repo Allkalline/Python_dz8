@@ -8,7 +8,7 @@ def find_person(data_str):
         lst_str = f.readlines()
         for worker in lst_str:
             if data_str in worker:
-                #print(worker)
+                print(worker)
                 return worker
 
 def change_name(data_str, new_name):
